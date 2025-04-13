@@ -196,6 +196,8 @@ Redis admite guardar datos en caché utilizando distintos tipos de estructuras:
 > Este comando es compatible con todos los tipos de datos (Strings, Hashes, Lists, Sets y Sorted Sets).
 > ```shell script
 > DEL tokens:APP
+> FLUSHDB   # Eliminar todas las keys de la BD actual
+> FLUSHALL  # Eliminar todas las keys de todas las BD
 > ```
 
 > ### ▶️ Renombrar una key
